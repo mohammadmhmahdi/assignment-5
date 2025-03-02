@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>DevBoard</title>
+</head>
+<body class="bg-blue-50">
+    <nav class="w-9/12 m-auto flex justify-between shadow-md bg-white px-5 py-5 rounded-2xl ">
+        <div class="flex items-center gap-2 ">
+            <img src="./assets/logo.png" alt="" class="w-10">
+            <h2 class="text-3xl">Dev <span class="font-bold">Board</span></h2>
+        </div>
+        <div class="btn btn-primary">
+            <a href="./index.html">Back To Desk</a>
+        </div>
+    </nav>
+    <main class="w-9/12 m-auto mt-10">
+        <h1 class="text-center text-3xl font-bold mb-10">Blogs</h1>
+        <div class="bg-white p-10 rounded-2xl mt-3">
+            <div class="font-bold mb-5">
+                <h2>Question-1: What are the different ways to select an element in the DOM?</h2>
+            </div>
+            <div >
+                <p class="text-lg">
+                Their are many way to select an element in DOM. like getElementById, getElementByClassName, getElementByTagName, querySelector, querySelectorAll.
+                </p>
+            </div>
+        </div>
+        <div class="bg-white p-10 rounded-2xl mt-3">
+            <div class="font-bold mb-5">
+                <h2>Question-2: What is the difference between innerHTML, innerText, and textContent ?</h2>
+            </div>
+            <div >
+                <p class="text-lg">
+                    innerHTML use for sets HTML content including tags ; innerText use for sets any text  ; textContent use for sets all content including hidden text
+                </p>
+            </div>
+        </div>
+        <div class="bg-white p-10 rounded-2xl mt-3">
+            <div class="font-bold mb-5">
+                <h2>Question-3: What is event delegation in the DOM?</h2>
+            </div>
+            <div>
+                <p class="text-lg">
+                    Event delegation  হল JavaScript-এ একটি টেকনিক যেখানে একটি parent element কে ইভেন্ট লিসেনার যোগ করে তার সমস্ত চাইল্ড এলিমেন্টের ইভেন্টগুলি ম্যানেজ করেন
+                </p>
+            </div>
+        </div>
+        <div class="bg-white p-10 rounded-2xl mt-3">
+            <div class="font-bold mb-5">
+                <h2>Question-4: What is event bubbling in the DOM?</h2>
+            </div>
+            <div >
+                <p class="text-lg">
+                    Bubble Up হল DOM এ ইভেন্ট হ্যান্ডলিং এর একটি প্রক্রিয়া, যেখানে কোন html এলিমেন্টে ইভেন্ট ঘটলে (যেমন ক্লিক  করলে) সেই ইভেন্টটি DOM ট্রি উপরের দিকে (প্যারেন্ট এলিমেন্ট এর দিকে) ছড়িয়ে পড়ে
+                </p>
+            </div>
+        </div>
+        <div class="bg-white p-10 rounded-2xl mt-3">
+            <div class="font-bold mb-5">
+                <h2>Question-5: How do you create, add, and remove elements using JavaScript?</h2>
+            </div>
+            <div >
+                <p class="text-lg">
+                Create Element with document.createElement('tagName'); add an element with appendChild(); remove an element with document.getElementById('idName').remove();
+                </p>
+            </div>
+        </div>
+        
+    </main>
+</body>
+</html>
